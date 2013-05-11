@@ -1,0 +1,12 @@
+Drawbacks (atAspectJ):
+
+ - previleged aspects
+ - intertype declarations
+    
+ Benefits of atAspectJ over (previous idioms):
+ 
+  + Removal of the empty concrete aspect for static BT.
+  + Adviceexecution idiom with @AspectJ is general for all kinds of advice
+    + No need for explicitly define all pointucts, used in around advice, as named pointcuts.
+    + No need for pointcut redefinition since '
+  + No need to annotate/mark all around advice with a custom Java 5 annotation mechanism.
